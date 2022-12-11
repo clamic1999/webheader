@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact;
+}
+header{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+p{
+    font-size: medium;
+    color: white;
+    text-decoration: wavy;
+    position: relative;
+    top: 24px;
+    left: 9%;
+}
+.logo{
+    height: 40px;
+    width: 5%;
+    top: 10px;
+    left: 25px;
+    position: absolute;
+}
+img{
+    height: 40px;
+    width: 100%;
+    top: 5px;
+    left: 5px;
+    position: absolute;
+}
+#navlinks{
+    height: 50px;
+    width: 40%;
+    top: 10px;
+    left: 55%;    
+    position: absolute;   
+    display: inline-block; 
+}
+a{
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(253, 251, 251);
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline;
+}
+button{
+    border: none;
+    padding: 15px 40px;
+    background-color: lightblue;
+    
+
+}
+li{
+    display: inline;
+}
